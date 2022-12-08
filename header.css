@@ -1,0 +1,39 @@
+.header-site {
+    display: flex;
+}
+
+.header-site {
+    height: 65px;
+    width: 80%;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-site .logo-site {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.list-menu {
+    display: flex;
+    height: 100%;
+}
+
+.list-menu .menu-item {
+    margin-right: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-site .logo-site img.logo-site-main {
+    width: 97px;
+    height: 47px;
+}
+
+.banner-header {
+    height: 614px;
+    background: #FFA600;
+}
