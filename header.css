@@ -8,6 +8,7 @@
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 .header-site .logo-site {
@@ -36,4 +37,125 @@
 .banner-header {
     height: 614px;
     background: #FFA600;
+}
+
+.box-filter-job {
+    width: 564px;
+    height: 346px;
+    background: white;
+    position: absolute;
+    padding: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20%;
+}
+
+.box-filter-job::after {
+    background: #11006F;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4px;
+    top: 0;
+    left: 0;
+}
+
+.content-box-filter-job {
+    position: relative;
+}
+
+.banner-header {
+    position: relative;
+}
+
+.content-box-filter-job .title-filter-job {
+    font-size: 20px;
+    
+/* identical to box height */
+    color: #212121;
+    opacity: 0.6;
+}
+
+.title-filter-job-bold {
+    font-weight: 700;
+    font-size: 26px;
+    
+    color: #212121;
+}
+
+
+.title-filter-job-number span.number-job {
+    font-size: 24px;
+    line-height: 30px;
+    color: #11006F;
+}
+
+.title-filter-job-number span.job-text {
+    font-size: 14px;
+    color: #9E9E9E;
+}
+.input-filter-job .box-input {
+    width: 492px;
+    height: 46px;
+    position: relative;
+}
+
+.input-filter-job .box-input input {
+    width: 100%;
+    height: 100%;
+    padding-left: 46px;
+}
+
+.input-filter-job .box-input img.icon-search {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12px;
+}
+
+.input-filter-job .box-input img.icon-filter {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 12px;
+}
+
+.input-filter-job {
+    margin: 12px 0;
+}
+
+.new-job {}
+
+.more-link-filter-job .new-job {
+    background: #FF2525;
+    border-radius: 14.5px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    width: 94px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-link-filter-job .all-job {
+    font-size: 14px;
+    line-height: 18px;
+/* identical to box height */
+
+
+/* phu */
+    color: #11006F;
+    margin-left: 16px;
+}
+
+.more-link-filter-job {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.title-filter-job-number {
+    margin: 30px 0;
 }

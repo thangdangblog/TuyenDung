@@ -1,5 +1,31 @@
+@font-face {
+    font-family: Yody;
+    src: url(assets/font/Quicksand-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Yody;
+    src: url(assets/font/Quicksand-Light.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Yody;
+    src: url(assets/font/Quicksand-Medium.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Yody;
+    src: url(assets/font/Quicksand-Regular.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Yody;
+    src: url(assets/font/Quicksand-SemiBold.ttf);
+    font-weight: bold;
+}
+
 * {
-    font-family: 'Quicksand';
+    font-family: 'Yody';
 }
 
 a {
@@ -139,3 +165,21 @@ div.nav-link-yody.active::after {
     color: #11006F;
     border: none;
 }
+
+ol, ul {
+    list-style: none;
+}
+
+.foo-info .foo-top li a {
+    color: #fff;
+    font-size: 15px;
+    display: block;
+}
+
+
+
+/* Banner  */
+
+
+
+/* Banner  */
