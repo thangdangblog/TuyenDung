@@ -1,0 +1,196 @@
+.box-session-header-detail {
+    display: flex;
+    padding: 50px 0px;
+    width: 100%;
+}
+
+.box-header-detail {
+    background: #FFF6E5;
+}
+
+.box-session-child {
+    width: calc(100% - 100px);
+    margin: 0 auto;
+}
+
+.box-header-detail .icon-cruiment-box {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.box-header-detail .icon-cruiment-box .box-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 113px;
+    height: 113px;
+    background: #11006e21;
+    position: relative;
+}
+
+.box-header-detail .icon-cruiment-box .box-circle img {
+    position: absolute;
+    width: 80px;
+    left: 23px;
+    bottom: -7px;
+}
+
+.apply-job {
+    display: flex;
+    align-items: center;
+}
+
+.box-session-header-detail .box-detail {
+    flex: 1;
+}
+
+button.btn-apply {
+    width: 220px;
+    height: 60px;
+    background: #FFA600;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #11006F;
+    outline: none;
+    border: none;
+}
+
+button.btn-apply-child {
+    width: 117px;
+    height: 36px;
+    background: #FFA600;
+    border-radius: 6px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    color: #11006F;
+}
+
+.sub-box-title {
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #11006F;
+    display: flex;
+    align-items: center;
+}
+
+.box-share-job {
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #11006F;
+    margin-top: 20px;
+}
+
+.sub-box-title>* {
+    margin-right: 10px;
+}
+
+.box-session ol.breadcrumb {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #11006F;
+}
+
+.session-content-job .title-detail {
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFA600;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.session-content-job {
+    padding: 10px 0;
+}
+
+.box-content-detail {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #11006F;
+}
+
+.content-job-detail-session {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-job-detail-session>.detail-content-job {
+    min-width: 30%;
+    margin-bottom: 20px;
+    padding: 12px 0;
+    display: flex;
+}
+
+.content-job-detail-session>.detail-content-job .box-icon-detail-content-job {
+    width: 55px;
+    align-items: center;
+    display: flex;
+}
+
+.content-job-detail-session>.detail-content-job .box-content-detail-content-job {
+    flex: 1;
+}
+
+.content-job-detail-session>.detail-content-job .box-content-detail-content-job .box-content-detail-content-job-title {
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #11006F;
+}
+
+.box-content-detail-content-job-title-more {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    color: #11006F;
+}
+
+.icon-box-around {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #11006F;
+    background: white;
+    border-radius: 50%;
+}
+
+
+.title-relate {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+    color: #11006F;
+    padding: 20px 0;
+}
+
+.cruiment-box .apply-job-box {
+    align-items: end;
+    display: flex;
+    padding: 0 10px 10px 0;
+}
+
+.view-more-text {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 100%;
+    color: #11006F;
+    cursor: pointer;
+}
+
+.view-more-text a{
+    color: #11006F;
+}

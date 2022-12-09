@@ -16,7 +16,7 @@
 @font-face {
     font-family: Yody;
     src: url(assets/font/Quicksand-Regular.ttf);
-    font-weight: bold;
+    font-weight: normal;
 }
 @font-face {
     font-family: Yody;
@@ -49,6 +49,12 @@ a {
     font-weight: 700;
     font-size: 16px;
     color: #11006F;
+}
+
+.grid-box.grid-box-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 
 .grid-box {
@@ -183,3 +189,14 @@ ol, ul {
 
 
 /* Banner  */
+
+.icon-new {
+    width: 32px;
+    height: 16px;
+    background: #FF2525;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 10px;
+    color: #FFFFFF;
+    text-align: center;
+}
